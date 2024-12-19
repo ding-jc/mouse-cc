@@ -5,6 +5,8 @@ out
 *.log*
 
 /electron.vite.config.*.mjs
+auto-imports.d.ts
+components.d.ts
 
 /lib/node-addons/build/*
 !/lib/node-addons/build/Release/
