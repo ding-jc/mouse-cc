@@ -1,0 +1,12 @@
+node_modules
+dist
+out
+.DS_Store
+*.log*
+
+/electron.vite.config.*.mjs
+
+/lib/node-addons/build/*
+!/lib/node-addons/build/Release/
+/lib/node-addons/build/Release/*
+!/lib/node-addons/build/Release/*.node
