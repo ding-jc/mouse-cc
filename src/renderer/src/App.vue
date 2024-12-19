@@ -18,7 +18,9 @@ window.electron.ipcRenderer
   })
 
 let update = () => {}
-watch(data, update)
+watch(data, () => {
+  update()
+})
 
 const start = () => {
   window.electron.ipcRenderer.send('satrt')
